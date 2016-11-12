@@ -39,6 +39,7 @@ def model(X, mask, W, b, W_prime, b_prime):
     print "Z",Z
     return Z
 
+# The output variable that always changes based on evolving X,mask,W,b,W_prime & b_prime
 Z = model(X, mask, W, b, W_prime, b_prime)
 
 # Cost Function to minimize errors.
